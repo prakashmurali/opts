@@ -1,0 +1,101 @@
+
+1 llvm.H.i16
+1 a3 
+1 INST_LABEL: 0x239d530
+1 In_Edges: 
+1 Out_Edges: 0x239ef50 
+2 llvm.H.i16
+2 a4 
+2 INST_LABEL: 0x239d750
+2 In_Edges: 
+2 Out_Edges: 0x239f350 
+3 llvm.H.i16
+3 a5 
+3 INST_LABEL: 0x239d920
+3 In_Edges: 0x23a6b00 
+3 Out_Edges: 0x239dde8 
+4 llvm.CNOT.i16.i16
+4 a0 a5 
+4 INST_LABEL: 0x239dde8
+4 In_Edges: 0x23a6e70 0x239d920 
+4 Out_Edges: 0x239dfb0 0x239f750 
+5 llvm.H.i16
+5 a0 
+5 INST_LABEL: 0x239dfb0
+5 In_Edges: 0x239dde8 
+5 Out_Edges: 0x239e320 
+6 llvm.MeasZ.i16
+6 a0 
+6 INST_LABEL: 0x239e320
+6 In_Edges: 0x239dfb0 
+6 Out_Edges: 
+7 llvm.H.i16
+7 a1 
+7 INST_LABEL: 0x239e640
+7 In_Edges: 0x23a70f0 
+7 Out_Edges: 0x239e840 
+8 llvm.MeasZ.i16
+8 a1 
+8 INST_LABEL: 0x239e840
+8 In_Edges: 0x239e640 
+8 Out_Edges: 
+9 llvm.H.i16
+9 a2 
+9 INST_LABEL: 0x239ea40
+9 In_Edges: 0x23a7340 
+9 Out_Edges: 0x239ed50 
+10 llvm.MeasZ.i16
+10 a2 
+10 INST_LABEL: 0x239ed50
+10 In_Edges: 0x239ea40 
+10 Out_Edges: 
+11 llvm.H.i16
+11 a3 
+11 INST_LABEL: 0x239ef50
+11 In_Edges: 0x239d530 
+11 Out_Edges: 0x239f150 
+12 llvm.MeasZ.i16
+12 a3 
+12 INST_LABEL: 0x239f150
+12 In_Edges: 0x239ef50 
+12 Out_Edges: 
+13 llvm.H.i16
+13 a4 
+13 INST_LABEL: 0x239f350
+13 In_Edges: 0x239d750 
+13 Out_Edges: 0x239f550 
+14 llvm.MeasZ.i16
+14 a4 
+14 INST_LABEL: 0x239f550
+14 In_Edges: 0x239f350 
+14 Out_Edges: 
+15 llvm.H.i16
+15 a5 
+15 INST_LABEL: 0x239f750
+15 In_Edges: 0x239dde8 
+15 Out_Edges: 0x239f950 
+16 llvm.MeasZ.i16
+16 a5 
+16 INST_LABEL: 0x239f950
+16 In_Edges: 0x239f750 
+16 Out_Edges: 
+17 llvm.X.i16
+17 a5 
+17 INST_LABEL: 0x23a6b00
+17 In_Edges: 
+17 Out_Edges: 0x239d920 
+18 llvm.H.i16
+18 a0 
+18 INST_LABEL: 0x23a6e70
+18 In_Edges: 
+18 Out_Edges: 0x239dde8 
+19 llvm.H.i16
+19 a1 
+19 INST_LABEL: 0x23a70f0
+19 In_Edges: 
+19 Out_Edges: 0x239e640 
+20 llvm.H.i16
+20 a2 
+20 INST_LABEL: 0x23a7340
+20 In_Edges: 
+20 Out_Edges: 0x239ea40 

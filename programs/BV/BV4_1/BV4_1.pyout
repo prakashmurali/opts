@@ -1,0 +1,71 @@
+
+1 llvm.CNOT.i16.i16
+1 a0 a3 
+1 INST_LABEL: 0x1b3f5e8
+1 In_Edges: 0x1b48b20 0x1b49240 
+1 Out_Edges: 0x1b3f730 0x1b40760 
+2 llvm.H.i16
+2 a0 
+2 INST_LABEL: 0x1b3f730
+2 In_Edges: 0x1b3f5e8 
+2 Out_Edges: 0x1b3fb30 
+3 llvm.MeasZ.i16
+3 a0 
+3 INST_LABEL: 0x1b3fb30
+3 In_Edges: 0x1b3f730 
+3 Out_Edges: 
+4 llvm.H.i16
+4 a1 
+4 INST_LABEL: 0x1b3fd30
+4 In_Edges: 0x1b48da0 
+4 Out_Edges: 0x1b3ff30 
+5 llvm.MeasZ.i16
+5 a1 
+5 INST_LABEL: 0x1b3ff30
+5 In_Edges: 0x1b3fd30 
+5 Out_Edges: 
+6 llvm.H.i16
+6 a2 
+6 INST_LABEL: 0x1b40250
+6 In_Edges: 0x1b48ff0 
+6 Out_Edges: 0x1b40450 
+7 llvm.MeasZ.i16
+7 a2 
+7 INST_LABEL: 0x1b40450
+7 In_Edges: 0x1b40250 
+7 Out_Edges: 
+8 llvm.H.i16
+8 a3 
+8 INST_LABEL: 0x1b40760
+8 In_Edges: 0x1b3f5e8 
+8 Out_Edges: 0x1b40960 
+9 llvm.MeasZ.i16
+9 a3 
+9 INST_LABEL: 0x1b40960
+9 In_Edges: 0x1b40760 
+9 Out_Edges: 
+10 llvm.X.i16
+10 a3 
+10 INST_LABEL: 0x1b45c30
+10 In_Edges: 
+10 Out_Edges: 0x1b49240 
+11 llvm.H.i16
+11 a0 
+11 INST_LABEL: 0x1b48b20
+11 In_Edges: 
+11 Out_Edges: 0x1b3f5e8 
+12 llvm.H.i16
+12 a1 
+12 INST_LABEL: 0x1b48da0
+12 In_Edges: 
+12 Out_Edges: 0x1b3fd30 
+13 llvm.H.i16
+13 a2 
+13 INST_LABEL: 0x1b48ff0
+13 In_Edges: 
+13 Out_Edges: 0x1b40250 
+14 llvm.H.i16
+14 a3 
+14 INST_LABEL: 0x1b49240
+14 In_Edges: 0x1b45c30 
+14 Out_Edges: 0x1b3f5e8 

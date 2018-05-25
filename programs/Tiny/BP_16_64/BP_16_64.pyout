@@ -1,0 +1,321 @@
+
+1 llvm.H.i16
+1 a3 
+1 INST_LABEL: 0x29086f0
+1 In_Edges: 
+1 Out_Edges: 0x291a558 
+2 llvm.S.i16
+2 a12 
+2 INST_LABEL: 0x2908ab0
+2 In_Edges: 
+2 Out_Edges: 0x29099c0 
+3 llvm.X.i16
+3 a5 
+3 INST_LABEL: 0x2908d00
+3 In_Edges: 
+3 Out_Edges: 0x29098a8 
+4 llvm.H.i16
+4 a2 
+4 INST_LABEL: 0x2908eb0
+4 In_Edges: 0x290d430 
+4 Out_Edges: 0x2908fd0 
+5 llvm.Y.i16
+5 a2 
+5 INST_LABEL: 0x2908fd0
+5 In_Edges: 0x2908eb0 
+5 Out_Edges: 0x291a240 
+6 llvm.Sdag.i16
+6 a14 
+6 INST_LABEL: 0x29091d0
+6 In_Edges: 
+6 Out_Edges: 0x291cb50 
+7 llvm.S.i16
+7 a9 
+7 INST_LABEL: 0x2909420
+7 In_Edges: 
+7 Out_Edges: 0x291b540 
+8 llvm.CNOT.i16.i16
+8 a1 a5 
+8 INST_LABEL: 0x29098a8
+8 In_Edges: 0x2908d00 
+8 Out_Edges: 0x291dbb0 0x290a248 
+9 llvm.T.i16
+9 a12 
+9 INST_LABEL: 0x29099c0
+9 In_Edges: 0x2908ab0 
+9 Out_Edges: 0x291d2a8 
+10 llvm.Sdag.i16
+10 a15 
+10 INST_LABEL: 0x2909be0
+10 In_Edges: 
+10 Out_Edges: 0x290a248 
+11 llvm.T.i16
+11 a11 
+11 INST_LABEL: 0x2909f50
+11 In_Edges: 0x291a670 
+11 Out_Edges: 0x291b300 
+12 llvm.Y.i16
+12 a8 
+12 INST_LABEL: 0x290a060
+12 In_Edges: 
+12 Out_Edges: 0x291b1e0 
+13 llvm.CNOT.i16.i16
+13 a15 a5 
+13 INST_LABEL: 0x290a248
+13 In_Edges: 0x29098a8 0x2909be0 
+13 Out_Edges: 0x291a8d0 0x291ae30 
+14 llvm.Sdag.i16
+14 a6 
+14 INST_LABEL: 0x290d070
+14 In_Edges: 
+14 Out_Edges: 0x290d6f0 
+15 llvm.Y.i16
+15 a2 
+15 INST_LABEL: 0x290d430
+15 In_Edges: 
+15 Out_Edges: 0x2908eb0 
+16 llvm.T.i16
+16 a6 
+16 INST_LABEL: 0x290d6f0
+16 In_Edges: 0x290d070 
+16 Out_Edges: 0x290dbf0 
+17 llvm.Sdag.i16
+17 a13 
+17 INST_LABEL: 0x290d940
+17 In_Edges: 
+17 Out_Edges: 0x291a9f0 
+18 llvm.X.i16
+18 a6 
+18 INST_LABEL: 0x290dbf0
+18 In_Edges: 0x290d6f0 
+18 Out_Edges: 0x291c7f8 
+19 llvm.T.i16
+19 a7 
+19 INST_LABEL: 0x2919be0
+19 In_Edges: 
+19 Out_Edges: 0x291cd90 
+20 llvm.T.i16
+20 a10 
+20 INST_LABEL: 0x2919db0
+20 In_Edges: 
+20 Out_Edges: 0x291ab10 
+21 llvm.Sdag.i16
+21 a4 
+21 INST_LABEL: 0x291a000
+21 In_Edges: 
+21 Out_Edges: 0x291a120 
+22 llvm.T.i16
+22 a4 
+22 INST_LABEL: 0x291a120
+22 In_Edges: 0x291a000 
+22 Out_Edges: 0x291b920 
+23 llvm.H.i16
+23 a2 
+23 INST_LABEL: 0x291a240
+23 In_Edges: 0x2908fd0 
+23 Out_Edges: 
+24 llvm.CNOT.i16.i16
+24 a11 a3 
+24 INST_LABEL: 0x291a558
+24 In_Edges: 0x29086f0 
+24 Out_Edges: 0x291a670 0x291b420 
+25 llvm.Y.i16
+25 a11 
+25 INST_LABEL: 0x291a670
+25 In_Edges: 0x291a558 
+25 Out_Edges: 0x2909f50 
+26 llvm.Z.i16
+26 a15 
+26 INST_LABEL: 0x291a8d0
+26 In_Edges: 0x290a248 
+26 Out_Edges: 0x291bb60 
+27 llvm.H.i16
+27 a13 
+27 INST_LABEL: 0x291a9f0
+27 In_Edges: 0x290d940 
+27 Out_Edges: 0x291b6f8 
+28 llvm.Z.i16
+28 a10 
+28 INST_LABEL: 0x291ab10
+28 In_Edges: 0x2919db0 
+28 Out_Edges: 0x291bfe0 
+29 llvm.Z.i16
+29 a0 
+29 INST_LABEL: 0x291ad10
+29 In_Edges: 
+29 Out_Edges: 0x291c100 
+30 llvm.X.i16
+30 a5 
+30 INST_LABEL: 0x291ae30
+30 In_Edges: 0x290a248 
+30 Out_Edges: 
+31 llvm.T.i16
+31 a9 
+31 INST_LABEL: 0x291af50
+31 In_Edges: 0x291c648 
+31 Out_Edges: 
+32 llvm.H.i16
+32 a10 
+32 INST_LABEL: 0x291b070
+32 In_Edges: 0x291bfe0 
+32 Out_Edges: 
+33 llvm.Y.i16
+33 a8 
+33 INST_LABEL: 0x291b1e0
+33 In_Edges: 0x290a060 
+33 Out_Edges: 0x291b6f8 
+34 llvm.X.i16
+34 a11 
+34 INST_LABEL: 0x291b300
+34 In_Edges: 0x2909f50 
+34 Out_Edges: 0x291ca30 
+35 llvm.S.i16
+35 a3 
+35 INST_LABEL: 0x291b420
+35 In_Edges: 0x291a558 
+35 Out_Edges: 0x291c220 
+36 llvm.S.i16
+36 a9 
+36 INST_LABEL: 0x291b540
+36 In_Edges: 0x2909420 
+36 Out_Edges: 0x291bda0 
+37 llvm.CNOT.i16.i16
+37 a13 a8 
+37 INST_LABEL: 0x291b6f8
+37 In_Edges: 0x291a9f0 0x291b1e0 
+37 Out_Edges: 0x291ba40 
+38 llvm.Tdag.i16
+38 a4 
+38 INST_LABEL: 0x291b920
+38 In_Edges: 0x291a120 
+38 Out_Edges: 0x291c340 
+39 llvm.S.i16
+39 a8 
+39 INST_LABEL: 0x291ba40
+39 In_Edges: 0x291b6f8 
+39 Out_Edges: 0x291bec0 
+40 llvm.Y.i16
+40 a15 
+40 INST_LABEL: 0x291bb60
+40 In_Edges: 0x291a8d0 
+40 Out_Edges: 0x291bc80 
+41 llvm.Y.i16
+41 a15 
+41 INST_LABEL: 0x291bc80
+41 In_Edges: 0x291bb60 
+41 Out_Edges: 0x291c7f8 
+42 llvm.Y.i16
+42 a9 
+42 INST_LABEL: 0x291bda0
+42 In_Edges: 0x291b540 
+42 Out_Edges: 0x291c648 
+43 llvm.Sdag.i16
+43 a8 
+43 INST_LABEL: 0x291bec0
+43 In_Edges: 0x291ba40 
+43 Out_Edges: 0x291c460 
+44 llvm.H.i16
+44 a10 
+44 INST_LABEL: 0x291bfe0
+44 In_Edges: 0x291ab10 
+44 Out_Edges: 0x291b070 
+45 llvm.T.i16
+45 a0 
+45 INST_LABEL: 0x291c100
+45 In_Edges: 0x291ad10 
+45 Out_Edges: 0x291c910 
+46 llvm.Sdag.i16
+46 a3 
+46 INST_LABEL: 0x291c220
+46 In_Edges: 0x291b420 
+46 Out_Edges: 0x291d970 
+47 llvm.Y.i16
+47 a4 
+47 INST_LABEL: 0x291c340
+47 In_Edges: 0x291b920 
+47 Out_Edges: 0x291c648 
+48 llvm.X.i16
+48 a8 
+48 INST_LABEL: 0x291c460
+48 In_Edges: 0x291bec0 
+48 Out_Edges: 0x291da90 
+49 llvm.CNOT.i16.i16
+49 a4 a9 
+49 INST_LABEL: 0x291c648
+49 In_Edges: 0x291bda0 0x291c340 
+49 Out_Edges: 0x291af50 
+50 llvm.CNOT.i16.i16
+50 a6 a15 
+50 INST_LABEL: 0x291c7f8
+50 In_Edges: 0x290dbf0 0x291bc80 
+50 Out_Edges: 
+51 llvm.H.i16
+51 a0 
+51 INST_LABEL: 0x291c910
+51 In_Edges: 0x291c100 
+51 Out_Edges: 0x291d0f0 
+52 llvm.Y.i16
+52 a11 
+52 INST_LABEL: 0x291ca30
+52 In_Edges: 0x291b300 
+52 Out_Edges: 0x291ceb0 
+53 llvm.Z.i16
+53 a14 
+53 INST_LABEL: 0x291cb50
+53 In_Edges: 0x29091d0 
+53 Out_Edges: 0x291cc70 
+54 llvm.Z.i16
+54 a14 
+54 INST_LABEL: 0x291cc70
+54 In_Edges: 0x291cb50 
+54 Out_Edges: 0x291cfd0 
+55 llvm.S.i16
+55 a7 
+55 INST_LABEL: 0x291cd90
+55 In_Edges: 0x2919be0 
+55 Out_Edges: 
+56 llvm.Y.i16
+56 a11 
+56 INST_LABEL: 0x291ceb0
+56 In_Edges: 0x291ca30 
+56 Out_Edges: 
+57 llvm.H.i16
+57 a14 
+57 INST_LABEL: 0x291cfd0
+57 In_Edges: 0x291cc70 
+57 Out_Edges: 
+58 llvm.T.i16
+58 a0 
+58 INST_LABEL: 0x291d0f0
+58 In_Edges: 0x291c910 
+58 Out_Edges: 0x291d2a8 
+59 llvm.CNOT.i16.i16
+59 a12 a0 
+59 INST_LABEL: 0x291d2a8
+59 In_Edges: 0x29099c0 0x291d0f0 
+59 Out_Edges: 0x291d850 
+60 llvm.Y.i16
+60 a12 
+60 INST_LABEL: 0x291d850
+60 In_Edges: 0x291d2a8 
+60 Out_Edges: 
+61 llvm.X.i16
+61 a3 
+61 INST_LABEL: 0x291d970
+61 In_Edges: 0x291c220 
+61 Out_Edges: 0x291dcd0 
+62 llvm.X.i16
+62 a8 
+62 INST_LABEL: 0x291da90
+62 In_Edges: 0x291c460 
+62 Out_Edges: 
+63 llvm.X.i16
+63 a1 
+63 INST_LABEL: 0x291dbb0
+63 In_Edges: 0x29098a8 
+63 Out_Edges: 
+64 llvm.H.i16
+64 a3 
+64 INST_LABEL: 0x291dcd0
+64 In_Edges: 0x291d970 
+64 Out_Edges: 

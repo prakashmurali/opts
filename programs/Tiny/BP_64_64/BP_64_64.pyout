@@ -1,0 +1,321 @@
+
+1 llvm.CNOT.i16.i16
+1 a22 a5 
+1 INST_LABEL: 0x1d08578
+1 In_Edges: 
+1 Out_Edges: 0x1d1b300 0x1d1ec90 
+2 llvm.Tdag.i16
+2 a0 
+2 INST_LABEL: 0x1d08740
+2 In_Edges: 
+2 Out_Edges: 
+3 llvm.X.i16
+3 a42 
+3 INST_LABEL: 0x1d08b20
+3 In_Edges: 
+3 Out_Edges: 0x1d09910 
+4 llvm.CNOT.i16.i16
+4 a11 a29 
+4 INST_LABEL: 0x1d08f88
+4 In_Edges: 
+4 Out_Edges: 0x1d1ab40 
+5 llvm.Tdag.i16
+5 a21 
+5 INST_LABEL: 0x1d091a0
+5 In_Edges: 
+5 Out_Edges: 0x1d1aa28 
+6 llvm.X.i16
+6 a61 
+6 INST_LABEL: 0x1d09480
+6 In_Edges: 
+6 Out_Edges: 0x1d1d960 
+7 llvm.Y.i16
+7 a49 
+7 INST_LABEL: 0x1d097f0
+7 In_Edges: 
+7 Out_Edges: 0x1d1aa28 
+8 llvm.Y.i16
+8 a42 
+8 INST_LABEL: 0x1d09910
+8 In_Edges: 0x1d08b20 
+8 Out_Edges: 
+9 llvm.Tdag.i16
+9 a62 
+9 INST_LABEL: 0x1d09b60
+9 In_Edges: 
+9 Out_Edges: 0x1d1bd80 
+10 llvm.Z.i16
+10 a55 
+10 INST_LABEL: 0x1d09d90
+10 In_Edges: 
+10 Out_Edges: 0x1d1cae8 
+11 llvm.Sdag.i16
+11 a17 
+11 INST_LABEL: 0x1d0a150
+11 In_Edges: 
+11 Out_Edges: 
+12 llvm.Tdag.i16
+12 a51 
+12 INST_LABEL: 0x1d0d850
+12 In_Edges: 
+12 Out_Edges: 
+13 llvm.Sdag.i16
+13 a57 
+13 INST_LABEL: 0x1d19be0
+13 In_Edges: 
+13 Out_Edges: 0x1d1a5f0 
+14 llvm.Sdag.i16
+14 a32 
+14 INST_LABEL: 0x1d19de0
+14 In_Edges: 
+14 Out_Edges: 
+15 llvm.T.i16
+15 a63 
+15 INST_LABEL: 0x1d1a1e0
+15 In_Edges: 
+15 Out_Edges: 
+16 llvm.CNOT.i16.i16
+16 a36 a3 
+16 INST_LABEL: 0x1d1a308
+16 In_Edges: 
+16 Out_Edges: 0x1d1b1e8 
+17 llvm.Y.i16
+17 a6 
+17 INST_LABEL: 0x1d1a4d0
+17 In_Edges: 
+17 Out_Edges: 
+18 llvm.Z.i16
+18 a57 
+18 INST_LABEL: 0x1d1a5f0
+18 In_Edges: 0x1d19be0 
+18 Out_Edges: 0x1d20898 
+19 llvm.Y.i16
+19 a27 
+19 INST_LABEL: 0x1d1a840
+19 In_Edges: 
+19 Out_Edges: 
+20 llvm.CNOT.i16.i16
+20 a49 a21 
+20 INST_LABEL: 0x1d1aa28
+20 In_Edges: 0x1d091a0 0x1d097f0 
+20 Out_Edges: 0x1d1ddf0 
+21 llvm.Z.i16
+21 a29 
+21 INST_LABEL: 0x1d1ab40
+21 In_Edges: 0x1d08f88 
+21 Out_Edges: 0x1d1c460 
+22 llvm.T.i16
+22 a56 
+22 INST_LABEL: 0x1d1aed0
+22 In_Edges: 
+22 Out_Edges: 
+23 llvm.CNOT.i16.i16
+23 a36 a46 
+23 INST_LABEL: 0x1d1b1e8
+23 In_Edges: 0x1d1a308 
+23 Out_Edges: 
+24 llvm.Tdag.i16
+24 a22 
+24 INST_LABEL: 0x1d1b300
+24 In_Edges: 0x1d08578 
+24 Out_Edges: 0x1d1b640 
+25 llvm.Z.i16
+25 a33 
+25 INST_LABEL: 0x1d1b520
+25 In_Edges: 
+25 Out_Edges: 0x1d1d840 
+26 llvm.Sdag.i16
+26 a22 
+26 INST_LABEL: 0x1d1b640
+26 In_Edges: 0x1d1b300 
+26 Out_Edges: 0x1d1c0f0 
+27 llvm.Sdag.i16
+27 a19 
+27 INST_LABEL: 0x1d1b890
+27 In_Edges: 
+27 Out_Edges: 0x1d1cae8 
+28 llvm.Y.i16
+28 a62 
+28 INST_LABEL: 0x1d1bd80
+28 In_Edges: 0x1d09b60 
+28 Out_Edges: 
+29 llvm.H.i16
+29 a7 
+29 INST_LABEL: 0x1d1bfd0
+29 In_Edges: 
+29 Out_Edges: 0x1d20140 
+30 llvm.S.i16
+30 a22 
+30 INST_LABEL: 0x1d1c0f0
+30 In_Edges: 0x1d1b640 
+30 Out_Edges: 
+31 llvm.Z.i16
+31 a31 
+31 INST_LABEL: 0x1d1c340
+31 In_Edges: 
+31 Out_Edges: 
+32 llvm.Tdag.i16
+32 a29 
+32 INST_LABEL: 0x1d1c460
+32 In_Edges: 0x1d1ab40 
+32 Out_Edges: 
+33 llvm.X.i16
+33 a8 
+33 INST_LABEL: 0x1d1c6b0
+33 In_Edges: 
+33 Out_Edges: 0x1d1f250 
+34 llvm.T.i16
+34 a60 
+34 INST_LABEL: 0x1d1c900
+34 In_Edges: 
+34 Out_Edges: 0x1d1e080 
+35 llvm.CNOT.i16.i16
+35 a19 a55 
+35 INST_LABEL: 0x1d1cae8
+35 In_Edges: 0x1d09d90 0x1d1b890 
+35 Out_Edges: 
+36 llvm.Sdag.i16
+36 a48 
+36 INST_LABEL: 0x1d1cd00
+36 In_Edges: 
+36 Out_Edges: 
+37 llvm.H.i16
+37 a34 
+37 INST_LABEL: 0x1d1d0c0
+37 In_Edges: 
+37 Out_Edges: 0x1d20460 
+38 llvm.CNOT.i16.i16
+38 a2 a59 
+38 INST_LABEL: 0x1d1d508
+38 In_Edges: 
+38 Out_Edges: 0x1d1e1a0 
+39 llvm.T.i16
+39 a9 
+39 INST_LABEL: 0x1d1d720
+39 In_Edges: 
+39 Out_Edges: 
+40 llvm.X.i16
+40 a33 
+40 INST_LABEL: 0x1d1d840
+40 In_Edges: 0x1d1b520 
+40 Out_Edges: 
+41 llvm.T.i16
+41 a61 
+41 INST_LABEL: 0x1d1d960
+41 In_Edges: 0x1d09480 
+41 Out_Edges: 0x1d1dcd0 
+42 llvm.H.i16
+42 a23 
+42 INST_LABEL: 0x1d1dbb0
+42 In_Edges: 
+42 Out_Edges: 
+43 llvm.Tdag.i16
+43 a61 
+43 INST_LABEL: 0x1d1dcd0
+43 In_Edges: 0x1d1d960 
+43 Out_Edges: 
+44 llvm.Y.i16
+44 a21 
+44 INST_LABEL: 0x1d1ddf0
+44 In_Edges: 0x1d1aa28 
+44 Out_Edges: 
+45 llvm.S.i16
+45 a60 
+45 INST_LABEL: 0x1d1e080
+45 In_Edges: 0x1d1c900 
+45 Out_Edges: 
+46 llvm.X.i16
+46 a2 
+46 INST_LABEL: 0x1d1e1a0
+46 In_Edges: 0x1d1d508 
+46 Out_Edges: 
+47 llvm.Z.i16
+47 a44 
+47 INST_LABEL: 0x1d1e3f0
+47 In_Edges: 
+47 Out_Edges: 0x1d1e958 
+48 llvm.X.i16
+48 a38 
+48 INST_LABEL: 0x1d1e640
+48 In_Edges: 
+48 Out_Edges: 
+49 llvm.CNOT.i16.i16
+49 a44 a12 
+49 INST_LABEL: 0x1d1e958
+49 In_Edges: 0x1d1e3f0 
+49 Out_Edges: 
+50 llvm.Z.i16
+50 a50 
+50 INST_LABEL: 0x1d1eb70
+50 In_Edges: 
+50 Out_Edges: 0x1d1f5c0 
+51 llvm.Y.i16
+51 a5 
+51 INST_LABEL: 0x1d1ec90
+51 In_Edges: 0x1d08578 
+51 Out_Edges: 
+52 llvm.S.i16
+52 a37 
+52 INST_LABEL: 0x1d1eee0
+52 In_Edges: 
+52 Out_Edges: 
+53 llvm.X.i16
+53 a4 
+53 INST_LABEL: 0x1d1f130
+53 In_Edges: 
+53 Out_Edges: 
+54 llvm.Tdag.i16
+54 a8 
+54 INST_LABEL: 0x1d1f250
+54 In_Edges: 0x1d1c6b0 
+54 Out_Edges: 
+55 llvm.S.i16
+55 a52 
+55 INST_LABEL: 0x1d1f4a0
+55 In_Edges: 
+55 Out_Edges: 0x1d209b0 
+56 llvm.T.i16
+56 a50 
+56 INST_LABEL: 0x1d1f5c0
+56 In_Edges: 0x1d1eb70 
+56 Out_Edges: 
+57 llvm.H.i16
+57 a41 
+57 INST_LABEL: 0x1d1f810
+57 In_Edges: 
+57 Out_Edges: 
+58 llvm.T.i16
+58 a1 
+58 INST_LABEL: 0x1d1fa60
+58 In_Edges: 
+58 Out_Edges: 
+59 llvm.T.i16
+59 a7 
+59 INST_LABEL: 0x1d20140
+59 In_Edges: 0x1d1bfd0 
+59 Out_Edges: 
+60 llvm.Y.i16
+60 a10 
+60 INST_LABEL: 0x1d20340
+60 In_Edges: 
+60 Out_Edges: 
+61 llvm.T.i16
+61 a34 
+61 INST_LABEL: 0x1d20460
+61 In_Edges: 0x1d1d0c0 
+61 Out_Edges: 0x1d20898 
+62 llvm.Tdag.i16
+62 a35 
+62 INST_LABEL: 0x1d206b0
+62 In_Edges: 
+62 Out_Edges: 
+63 llvm.CNOT.i16.i16
+63 a57 a34 
+63 INST_LABEL: 0x1d20898
+63 In_Edges: 0x1d1a5f0 0x1d20460 
+63 Out_Edges: 
+64 llvm.X.i16
+64 a52 
+64 INST_LABEL: 0x1d209b0
+64 In_Edges: 0x1d1f4a0 
+64 Out_Edges: 

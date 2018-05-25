@@ -1,0 +1,32 @@
+7
+Reading programs/Tiny/BP_8_128/BP_8_128.in
+Reading programs/Tiny/BP_8_128/BP_8_128.rr
+Reading programs/Tiny/BP_8_128/BP_8_128.des
+Reading programs/Tiny/BP_8_128/BP_8_128.pg
+Reading programs/Tiny/BP_8_128/BP_8_128.gmap
+Experiment configuration
+-----
+Program:programs/Tiny/BP_8_128/BP_8_128
+Machine:2,4
+Data aware:0
+Routing policy:1
+SR T:20000
+Global T:20000
+-----
+nrows: 2 nCols: 4
+Max time:335
+Total Solve Time:0
+Constraints:
+Mapping:0
+Dependency:0
+Routing:0
+Stats:
+arith_conflicts 0
+arith_add_rows 0
+conflicts 0
+decisions 0
+mk_clause 0
+added_eqs 0
+binary_propagations 0
+restarts 0
+All done!

@@ -1,0 +1,111 @@
+
+1 llvm.H.i16
+1 a3 
+1 INST_LABEL: 0x142c660
+1 In_Edges: 
+1 Out_Edges: 0x142e590 
+2 llvm.H.i16
+2 a4 
+2 INST_LABEL: 0x142c880
+2 In_Edges: 
+2 Out_Edges: 0x142e990 
+3 llvm.H.i16
+3 a5 
+3 INST_LABEL: 0x142ca80
+3 In_Edges: 0x1432a90 
+3 Out_Edges: 0x142cf48 
+4 llvm.CNOT.i16.i16
+4 a0 a5 
+4 INST_LABEL: 0x142cf48
+4 In_Edges: 0x1431910 0x142ca80 
+4 Out_Edges: 0x142d770 0x142d1f8 
+5 llvm.CNOT.i16.i16
+5 a1 a5 
+5 INST_LABEL: 0x142d1f8
+5 In_Edges: 0x1431b40 0x142cf48 
+5 Out_Edges: 0x142dd90 0x142d488 
+6 llvm.CNOT.i16.i16
+6 a2 a5 
+6 INST_LABEL: 0x142d488
+6 In_Edges: 0x1431d90 0x142d1f8 
+6 Out_Edges: 0x142e190 0x142ed90 
+7 llvm.H.i16
+7 a0 
+7 INST_LABEL: 0x142d770
+7 In_Edges: 0x142cf48 
+7 Out_Edges: 0x142da80 
+8 llvm.MeasZ.i16
+8 a0 
+8 INST_LABEL: 0x142da80
+8 In_Edges: 0x142d770 
+8 Out_Edges: 
+9 llvm.H.i16
+9 a1 
+9 INST_LABEL: 0x142dd90
+9 In_Edges: 0x142d1f8 
+9 Out_Edges: 0x142df90 
+10 llvm.MeasZ.i16
+10 a1 
+10 INST_LABEL: 0x142df90
+10 In_Edges: 0x142dd90 
+10 Out_Edges: 
+11 llvm.H.i16
+11 a2 
+11 INST_LABEL: 0x142e190
+11 In_Edges: 0x142d488 
+11 Out_Edges: 0x142e390 
+12 llvm.MeasZ.i16
+12 a2 
+12 INST_LABEL: 0x142e390
+12 In_Edges: 0x142e190 
+12 Out_Edges: 
+13 llvm.H.i16
+13 a3 
+13 INST_LABEL: 0x142e590
+13 In_Edges: 0x142c660 
+13 Out_Edges: 0x142e790 
+14 llvm.MeasZ.i16
+14 a3 
+14 INST_LABEL: 0x142e790
+14 In_Edges: 0x142e590 
+14 Out_Edges: 
+15 llvm.H.i16
+15 a4 
+15 INST_LABEL: 0x142e990
+15 In_Edges: 0x142c880 
+15 Out_Edges: 0x142eb90 
+16 llvm.MeasZ.i16
+16 a4 
+16 INST_LABEL: 0x142eb90
+16 In_Edges: 0x142e990 
+16 Out_Edges: 
+17 llvm.H.i16
+17 a5 
+17 INST_LABEL: 0x142ed90
+17 In_Edges: 0x142d488 
+17 Out_Edges: 0x142ef90 
+18 llvm.MeasZ.i16
+18 a5 
+18 INST_LABEL: 0x142ef90
+18 In_Edges: 0x142ed90 
+18 Out_Edges: 
+19 llvm.H.i16
+19 a0 
+19 INST_LABEL: 0x1431910
+19 In_Edges: 
+19 Out_Edges: 0x142cf48 
+20 llvm.H.i16
+20 a1 
+20 INST_LABEL: 0x1431b40
+20 In_Edges: 
+20 Out_Edges: 0x142d1f8 
+21 llvm.H.i16
+21 a2 
+21 INST_LABEL: 0x1431d90
+21 In_Edges: 
+21 Out_Edges: 0x142d488 
+22 llvm.X.i16
+22 a5 
+22 INST_LABEL: 0x1432a90
+22 In_Edges: 
+22 Out_Edges: 0x142ca80 

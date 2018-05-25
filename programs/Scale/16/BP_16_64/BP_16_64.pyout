@@ -1,0 +1,321 @@
+
+1 llvm.X.i16
+1 a3 
+1 INST_LABEL: 0x2796420
+1 In_Edges: 
+1 Out_Edges: 
+2 llvm.Y.i16
+2 a7 
+2 INST_LABEL: 0x27967e0
+2 In_Edges: 
+2 Out_Edges: 0x27a85e0 
+3 llvm.Sdag.i16
+3 a5 
+3 INST_LABEL: 0x2796a30
+3 In_Edges: 
+3 Out_Edges: 0x2798170 
+4 llvm.T.i16
+4 a8 
+4 INST_LABEL: 0x2796df0
+4 In_Edges: 
+4 Out_Edges: 0x27a84c0 
+5 llvm.S.i16
+5 a10 
+5 INST_LABEL: 0x2797240
+5 In_Edges: 
+5 Out_Edges: 0x2797548 
+6 llvm.Sdag.i16
+6 a9 
+6 INST_LABEL: 0x2797360
+6 In_Edges: 0x279b330 
+6 Out_Edges: 0x27a80d8 
+7 llvm.CNOT.i16.i16
+7 a1 a10 
+7 INST_LABEL: 0x2797548
+7 In_Edges: 0x279b130 0x2797240 
+7 Out_Edges: 0x27a80d8 0x2797b18 
+8 llvm.Y.i16
+8 a6 
+8 INST_LABEL: 0x2797710
+8 In_Edges: 
+8 Out_Edges: 0x2797d40 
+9 llvm.CNOT.i16.i16
+9 a10 a15 
+9 INST_LABEL: 0x2797b18
+9 In_Edges: 0x2797548 
+9 Out_Edges: 0x2798290 0x27a83a0 
+10 llvm.H.i16
+10 a6 
+10 INST_LABEL: 0x2797d40
+10 In_Edges: 0x2797710 
+10 Out_Edges: 0x27a8288 
+11 llvm.X.i16
+11 a0 
+11 INST_LABEL: 0x2798050
+11 In_Edges: 
+11 Out_Edges: 0x27aad58 
+12 llvm.Y.i16
+12 a5 
+12 INST_LABEL: 0x2798170
+12 In_Edges: 0x2796a30 
+12 Out_Edges: 0x27a92b0 
+13 llvm.Y.i16
+13 a10 
+13 INST_LABEL: 0x2798290
+13 In_Edges: 0x2797b18 
+13 Out_Edges: 0x27a95b8 
+14 llvm.Sdag.i16
+14 a1 
+14 INST_LABEL: 0x279b130
+14 In_Edges: 
+14 Out_Edges: 0x2797548 
+15 llvm.Sdag.i16
+15 a9 
+15 INST_LABEL: 0x279b330
+15 In_Edges: 
+15 Out_Edges: 0x2797360 
+16 llvm.CNOT.i16.i16
+16 a13 a4 
+16 INST_LABEL: 0x279b918
+16 In_Edges: 
+16 Out_Edges: 0x27a7f20 0x27a9b50 
+17 llvm.CNOT.i16.i16
+17 a11 a14 
+17 INST_LABEL: 0x27a7e08
+17 In_Edges: 
+17 Out_Edges: 0x27a9190 0x27aa0f0 
+18 llvm.X.i16
+18 a13 
+18 INST_LABEL: 0x27a7f20
+18 In_Edges: 0x279b918 
+18 Out_Edges: 0x27a8288 
+19 llvm.CNOT.i16.i16
+19 a1 a9 
+19 INST_LABEL: 0x27a80d8
+19 In_Edges: 0x2797360 0x2797548 
+19 Out_Edges: 0x27a9fd0 0x27ab780 
+20 llvm.CNOT.i16.i16
+20 a13 a6 
+20 INST_LABEL: 0x27a8288
+20 In_Edges: 0x2797d40 0x27a7f20 
+20 Out_Edges: 0x27a96d0 0x27aa210 
+21 llvm.H.i16
+21 a15 
+21 INST_LABEL: 0x27a83a0
+21 In_Edges: 0x2797b18 
+21 Out_Edges: 0x27a95b8 
+22 llvm.S.i16
+22 a8 
+22 INST_LABEL: 0x27a84c0
+22 In_Edges: 0x2796df0 
+22 Out_Edges: 0x27abc00 
+23 llvm.H.i16
+23 a7 
+23 INST_LABEL: 0x27a85e0
+23 In_Edges: 0x27967e0 
+23 Out_Edges: 0x27a9070 
+24 llvm.X.i16
+24 a2 
+24 INST_LABEL: 0x27a8800
+24 In_Edges: 
+24 Out_Edges: 0x27a9d90 
+25 llvm.Tdag.i16
+25 a12 
+25 INST_LABEL: 0x27a8bc0
+25 In_Edges: 
+25 Out_Edges: 0x27a8ce0 
+26 llvm.Tdag.i16
+26 a12 
+26 INST_LABEL: 0x27a8ce0
+26 In_Edges: 0x27a8bc0 
+26 Out_Edges: 0x27aa4e8 
+27 llvm.Tdag.i16
+27 a15 
+27 INST_LABEL: 0x27a8e00
+27 In_Edges: 0x27aad58 
+27 Out_Edges: 0x27ab8a0 
+28 llvm.S.i16
+28 a7 
+28 INST_LABEL: 0x27a8f20
+28 In_Edges: 0x27a9910 
+28 Out_Edges: 
+29 llvm.Z.i16
+29 a7 
+29 INST_LABEL: 0x27a9070
+29 In_Edges: 0x27a85e0 
+29 Out_Edges: 0x27a9910 
+30 llvm.S.i16
+30 a11 
+30 INST_LABEL: 0x27a9190
+30 In_Edges: 0x27a7e08 
+30 Out_Edges: 0x27a93d0 
+31 llvm.Sdag.i16
+31 a5 
+31 INST_LABEL: 0x27a92b0
+31 In_Edges: 0x2798170 
+31 Out_Edges: 0x27a9a30 
+32 llvm.Y.i16
+32 a11 
+32 INST_LABEL: 0x27a93d0
+32 In_Edges: 0x27a9190 
+32 Out_Edges: 0x27a97f0 
+33 llvm.CNOT.i16.i16
+33 a10 a15 
+33 INST_LABEL: 0x27a95b8
+33 In_Edges: 0x2798290 0x27a83a0 
+33 Out_Edges: 0x27ab0b0 0x27aad58 
+34 llvm.X.i16
+34 a13 
+34 INST_LABEL: 0x27a96d0
+34 In_Edges: 0x27a8288 
+34 Out_Edges: 
+35 llvm.Sdag.i16
+35 a11 
+35 INST_LABEL: 0x27a97f0
+35 In_Edges: 0x27a93d0 
+35 Out_Edges: 0x27aae70 
+36 llvm.X.i16
+36 a7 
+36 INST_LABEL: 0x27a9910
+36 In_Edges: 0x27a9070 
+36 Out_Edges: 0x27a8f20 
+37 llvm.T.i16
+37 a5 
+37 INST_LABEL: 0x27a9a30
+37 In_Edges: 0x27a92b0 
+37 Out_Edges: 0x27a9eb0 
+38 llvm.Z.i16
+38 a4 
+38 INST_LABEL: 0x27a9b50
+38 In_Edges: 0x279b918 
+38 Out_Edges: 0x27a9c70 
+39 llvm.S.i16
+39 a4 
+39 INST_LABEL: 0x27a9c70
+39 In_Edges: 0x27a9b50 
+39 Out_Edges: 
+40 llvm.T.i16
+40 a2 
+40 INST_LABEL: 0x27a9d90
+40 In_Edges: 0x27a8800 
+40 Out_Edges: 0x27aa330 
+41 llvm.X.i16
+41 a5 
+41 INST_LABEL: 0x27a9eb0
+41 In_Edges: 0x27a9a30 
+41 Out_Edges: 0x27aa4e8 
+42 llvm.T.i16
+42 a1 
+42 INST_LABEL: 0x27a9fd0
+42 In_Edges: 0x27a80d8 
+42 Out_Edges: 0x27abdb8 
+43 llvm.S.i16
+43 a14 
+43 INST_LABEL: 0x27aa0f0
+43 In_Edges: 0x27a7e08 
+43 Out_Edges: 
+44 llvm.S.i16
+44 a6 
+44 INST_LABEL: 0x27aa210
+44 In_Edges: 0x27a8288 
+44 Out_Edges: 0x27aa960 
+45 llvm.Z.i16
+45 a2 
+45 INST_LABEL: 0x27aa330
+45 In_Edges: 0x27a9d90 
+45 Out_Edges: 0x27aa840 
+46 llvm.CNOT.i16.i16
+46 a12 a5 
+46 INST_LABEL: 0x27aa4e8
+46 In_Edges: 0x27a8ce0 0x27a9eb0 
+46 Out_Edges: 0x27aa600 0x27aa720 
+47 llvm.H.i16
+47 a12 
+47 INST_LABEL: 0x27aa600
+47 In_Edges: 0x27aa4e8 
+47 Out_Edges: 0x27ab1d0 
+48 llvm.H.i16
+48 a5 
+48 INST_LABEL: 0x27aa720
+48 In_Edges: 0x27aa4e8 
+48 Out_Edges: 0x27aaa80 
+49 llvm.T.i16
+49 a2 
+49 INST_LABEL: 0x27aa840
+49 In_Edges: 0x27aa330 
+49 Out_Edges: 
+50 llvm.Y.i16
+50 a6 
+50 INST_LABEL: 0x27aa960
+50 In_Edges: 0x27aa210 
+50 Out_Edges: 0x27abdb8 
+51 llvm.H.i16
+51 a5 
+51 INST_LABEL: 0x27aaa80
+51 In_Edges: 0x27aa720 
+51 Out_Edges: 0x27aaba0 
+52 llvm.Tdag.i16
+52 a5 
+52 INST_LABEL: 0x27aaba0
+52 In_Edges: 0x27aaa80 
+52 Out_Edges: 0x27aaf90 
+53 llvm.CNOT.i16.i16
+53 a15 a0 
+53 INST_LABEL: 0x27aad58
+53 In_Edges: 0x2798050 0x27a95b8 
+53 Out_Edges: 0x27a8e00 
+54 llvm.H.i16
+54 a11 
+54 INST_LABEL: 0x27aae70
+54 In_Edges: 0x27a97f0 
+54 Out_Edges: 
+55 llvm.Z.i16
+55 a5 
+55 INST_LABEL: 0x27aaf90
+55 In_Edges: 0x27aaba0 
+55 Out_Edges: 0x27abed0 
+56 llvm.X.i16
+56 a10 
+56 INST_LABEL: 0x27ab0b0
+56 In_Edges: 0x27a95b8 
+56 Out_Edges: 
+57 llvm.Z.i16
+57 a12 
+57 INST_LABEL: 0x27ab1d0
+57 In_Edges: 0x27aa600 
+57 Out_Edges: 0x27abae0 
+58 llvm.Tdag.i16
+58 a9 
+58 INST_LABEL: 0x27ab780
+58 In_Edges: 0x27a80d8 
+58 Out_Edges: 
+59 llvm.Sdag.i16
+59 a15 
+59 INST_LABEL: 0x27ab8a0
+59 In_Edges: 0x27a8e00 
+59 Out_Edges: 0x27ab9c0 
+60 llvm.H.i16
+60 a15 
+60 INST_LABEL: 0x27ab9c0
+60 In_Edges: 0x27ab8a0 
+60 Out_Edges: 
+61 llvm.Y.i16
+61 a12 
+61 INST_LABEL: 0x27abae0
+61 In_Edges: 0x27ab1d0 
+61 Out_Edges: 
+62 llvm.X.i16
+62 a8 
+62 INST_LABEL: 0x27abc00
+62 In_Edges: 0x27a84c0 
+62 Out_Edges: 
+63 llvm.CNOT.i16.i16
+63 a6 a1 
+63 INST_LABEL: 0x27abdb8
+63 In_Edges: 0x27a9fd0 0x27aa960 
+63 Out_Edges: 
+64 llvm.Z.i16
+64 a5 
+64 INST_LABEL: 0x27abed0
+64 In_Edges: 0x27aaf90 
+64 Out_Edges: 

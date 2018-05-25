@@ -1,0 +1,220 @@
+strict digraph  {
+	node [label="\N"];
+	0	 [details="{'startTime': 1, 'qubits': [2], 'outEdges': [9], 'llvmId': '0x1f145c0', 'duration': 0, 'type': 'H', 'inEdges': [], 'hwqubits': [\
+5]}",
+		label="0:H5 "];
+	39	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [5], 'startTime': 127}",
+		label="39:H 5"];
+	0 -> 39;
+	40	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 127}",
+		label="40:H 6"];
+	0 -> 40;
+	1	 [details="{'startTime': 2, 'qubits': [3], 'outEdges': [10], 'llvmId': '0x1f14860', 'duration': 0, 'type': 'H', 'inEdges': [], 'hwqubits': [\
+4]}",
+		label="1:H4 "];
+	44	 [details="{'duration': 26, 'type': 'SWAP', 'hwqubits': [4, 5], 'startTime': 139, 'cnotID': 10}",
+		label="44:SWAP(10)4 5"];
+	1 -> 44;
+	2	 [details="{'startTime': 1, 'qubits': [4], 'outEdges': [11], 'llvmId': '0x1f14a80', 'duration': 0, 'type': 'H', 'inEdges': [], 'hwqubits': [\
+10]}",
+		label="2:H10 "];
+	51	 [details="{'duration': 26, 'type': 'SWAP', 'hwqubits': [10, 7], 'startTime': 209, 'cnotID': 11}",
+		label="51:SWAP(11)10 7"];
+	2 -> 51;
+	3	 [details="{'startTime': 3, 'qubits': [5], 'outEdges': [12], 'llvmId': '0x1f14cd0', 'duration': 0, 'type': 'H', 'inEdges': [], 'hwqubits': [\
+7]}",
+		label="3:H7 "];
+	58	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [7], 'startTime': 279}",
+		label="58:H 7"];
+	3 -> 58;
+	59	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 279}",
+		label="59:H 6"];
+	3 -> 59;
+	4	 [details="{'startTime': 69, 'qubits': [6], 'outEdges': [13], 'llvmId': '0x1f14f20', 'duration': 0, 'type': 'H', 'inEdges': [], 'hwqubits': [\
+11]}",
+		label="4:H11 "];
+	63	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [11], 'startTime': 289}",
+		label="63:H 11"];
+	4 -> 63;
+	64	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 289}",
+		label="64:H 6"];
+	4 -> 64;
+	5	 [details="{'startTime': 3, 'qubits': [7], 'outEdges': [6], 'llvmId': '0x1f151b0', 'duration': 0, 'type': 'H', 'inEdges': [20], 'hwqubits': [\
+6]}",
+		label="5:H6 "];
+	25	 [details="{'duration': 26, 'type': 'SWAP', 'hwqubits': [8, 7], 'startTime': 4, 'cnotID': 6}",
+		label="25:SWAP(6)8 7"];
+	5 -> 25;
+	7	 [details="{'startTime': 298, 'qubits': [6], 'outEdges': [], 'llvmId': '0x1f15730', 'duration': 0, 'type': 'H', 'inEdges': [13], 'hwqubits': [\
+11]}",
+		label="7:H11 "];
+	14	 [details="{'startTime': 277, 'qubits': [0], 'outEdges': [], 'llvmId': '0x1f16900', 'duration': 0, 'type': 'H', 'inEdges': [6], 'hwqubits': [\
+8]}",
+		label="14:H8 "];
+	15	 [details="{'startTime': 297, 'qubits': [1], 'outEdges': [], 'llvmId': '0x1f16b00', 'duration': 0, 'type': 'H', 'inEdges': [8], 'hwqubits': [\
+12]}",
+		label="15:H12 "];
+	16	 [details="{'startTime': 298, 'qubits': [2], 'outEdges': [], 'llvmId': '0x1f16d00', 'duration': 0, 'type': 'H', 'inEdges': [9], 'hwqubits': [\
+5]}",
+		label="16:H5 "];
+	17	 [details="{'startTime': 288, 'qubits': [3], 'outEdges': [], 'llvmId': '0x1f16f00', 'duration': 0, 'type': 'H', 'inEdges': [10], 'hwqubits': [\
+4]}",
+		label="17:H4 "];
+	18	 [details="{'startTime': 278, 'qubits': [4], 'outEdges': [], 'llvmId': '0x1f17100', 'duration': 0, 'type': 'H', 'inEdges': [11], 'hwqubits': [\
+10]}",
+		label="18:H10 "];
+	19	 [details="{'startTime': 298, 'qubits': [5], 'outEdges': [], 'llvmId': '0x1f17300', 'duration': 0, 'type': 'H', 'inEdges': [12], 'hwqubits': [\
+7]}",
+		label="19:H7 "];
+	20	 [details="{'startTime': 1, 'qubits': [7], 'outEdges': [5], 'llvmId': '0x1f19d30', 'duration': 1, 'type': 'X', 'inEdges': [], 'hwqubits': [\
+6]}",
+		label="20:X6 "];
+	20 -> 5;
+	21	 [details="{'startTime': 1, 'qubits': [0], 'outEdges': [6], 'llvmId': '0x1f1a960', 'duration': 0, 'type': 'H', 'inEdges': [], 'hwqubits': [\
+8]}",
+		label="21:H8 "];
+	21 -> 25;
+	22	 [details="{'startTime': 1, 'qubits': [1], 'outEdges': [8], 'llvmId': '0x1f1abe0', 'duration': 0, 'type': 'H', 'inEdges': [], 'hwqubits': [\
+12]}",
+		label="22:H12 "];
+	32	 [details="{'duration': 26, 'type': 'SWAP', 'hwqubits': [12, 11], 'startTime': 70, 'cnotID': 8}",
+		label="32:SWAP(8)12 11"];
+	22 -> 32;
+	23	 [details="{'startTime': 298, 'qubits': [7], 'outEdges': [], 'llvmId': '0x1f27030', 'duration': 0, 'type': 'H', 'inEdges': [13], 'hwqubits': [\
+6]}",
+		label="23:H6 "];
+	26	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [7], 'startTime': 30}",
+		label="26:H 7"];
+	25 -> 26;
+	27	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 30}",
+		label="27:H 6"];
+	25 -> 27;
+	28	 [details="{'duration': 8, 'type': 'CNOT', 'hwqubits': [6, 7], 'startTime': 31}",
+		label="28:CNOT 6 7"];
+	26 -> 28;
+	27 -> 28;
+	29	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [7], 'startTime': 39}",
+		label="29:H 7"];
+	28 -> 29;
+	30	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 39}",
+		label="30:H 6"];
+	28 -> 30;
+	31	 [details="{'duration': 26, 'type': 'SWAP', 'hwqubits': [7, 8], 'startTime': 40, 'cnotID': 6}",
+		label="31:SWAP(6)7 8"];
+	29 -> 31;
+	30 -> 31;
+	31 -> 14;
+	31 -> 32;
+	33	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [11], 'startTime': 96}",
+		label="33:H 11"];
+	32 -> 33;
+	34	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 96}",
+		label="34:H 6"];
+	32 -> 34;
+	35	 [details="{'duration': 8, 'type': 'CNOT', 'hwqubits': [6, 11], 'startTime': 97}",
+		label="35:CNOT 6 11"];
+	33 -> 35;
+	34 -> 35;
+	36	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [11], 'startTime': 105}",
+		label="36:H 11"];
+	35 -> 36;
+	37	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 105}",
+		label="37:H 6"];
+	35 -> 37;
+	38	 [details="{'duration': 26, 'type': 'SWAP', 'hwqubits': [11, 12], 'startTime': 106, 'cnotID': 8}",
+		label="38:SWAP(8)11 12"];
+	36 -> 38;
+	37 -> 38;
+	38 -> 15;
+	38 -> 39;
+	38 -> 40;
+	41	 [details="{'duration': 8, 'type': 'CNOT', 'hwqubits': [6, 5], 'startTime': 128}",
+		label="41:CNOT 6 5"];
+	39 -> 41;
+	40 -> 41;
+	42	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [5], 'startTime': 136}",
+		label="42:H 5"];
+	41 -> 42;
+	43	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 136}",
+		label="43:H 6"];
+	41 -> 43;
+	42 -> 16;
+	42 -> 44;
+	43 -> 16;
+	43 -> 44;
+	45	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [5], 'startTime': 165}",
+		label="45:H 5"];
+	44 -> 45;
+	46	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 165}",
+		label="46:H 6"];
+	44 -> 46;
+	47	 [details="{'duration': 8, 'type': 'CNOT', 'hwqubits': [6, 5], 'startTime': 166}",
+		label="47:CNOT 6 5"];
+	45 -> 47;
+	46 -> 47;
+	48	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [5], 'startTime': 174}",
+		label="48:H 5"];
+	47 -> 48;
+	49	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 174}",
+		label="49:H 6"];
+	47 -> 49;
+	50	 [details="{'duration': 26, 'type': 'SWAP', 'hwqubits': [5, 4], 'startTime': 175, 'cnotID': 10}",
+		label="50:SWAP(10)5 4"];
+	48 -> 50;
+	49 -> 50;
+	50 -> 17;
+	50 -> 51;
+	52	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [7], 'startTime': 235}",
+		label="52:H 7"];
+	51 -> 52;
+	53	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 235}",
+		label="53:H 6"];
+	51 -> 53;
+	54	 [details="{'duration': 8, 'type': 'CNOT', 'hwqubits': [6, 7], 'startTime': 236}",
+		label="54:CNOT 6 7"];
+	52 -> 54;
+	53 -> 54;
+	55	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [7], 'startTime': 244}",
+		label="55:H 7"];
+	54 -> 55;
+	56	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 244}",
+		label="56:H 6"];
+	54 -> 56;
+	57	 [details="{'duration': 26, 'type': 'SWAP', 'hwqubits': [7, 10], 'startTime': 245, 'cnotID': 11}",
+		label="57:SWAP(11)7 10"];
+	55 -> 57;
+	56 -> 57;
+	57 -> 18;
+	57 -> 58;
+	57 -> 59;
+	60	 [details="{'duration': 8, 'type': 'CNOT', 'hwqubits': [6, 7], 'startTime': 280}",
+		label="60:CNOT 6 7"];
+	58 -> 60;
+	59 -> 60;
+	61	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [7], 'startTime': 288}",
+		label="61:H 7"];
+	60 -> 61;
+	62	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 288}",
+		label="62:H 6"];
+	60 -> 62;
+	61 -> 19;
+	61 -> 63;
+	61 -> 64;
+	62 -> 19;
+	62 -> 63;
+	62 -> 64;
+	65	 [details="{'duration': 8, 'type': 'CNOT', 'hwqubits': [6, 11], 'startTime': 290}",
+		label="65:CNOT 6 11"];
+	63 -> 65;
+	64 -> 65;
+	66	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [11], 'startTime': 298}",
+		label="66:H 11"];
+	65 -> 66;
+	67	 [details="{'duration': 1, 'type': 'H', 'hwqubits': [6], 'startTime': 298}",
+		label="67:H 6"];
+	65 -> 67;
+	66 -> 7;
+	66 -> 23;
+	67 -> 7;
+	67 -> 23;
+}

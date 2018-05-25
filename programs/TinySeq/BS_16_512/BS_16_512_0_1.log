@@ -1,0 +1,26 @@
+Reading programs/TinySeq/BS_16_512/BS_16_512.in
+Reading programs/TinySeq/BS_16_512/BS_16_512.rr
+Reading programs/TinySeq/BS_16_512/BS_16_512.des
+Experiment configuration
+-----
+Program:programs/TinySeq/BS_16_512/BS_16_512
+Machine:2,8
+Data aware:0
+Routing policy:1
+MS T:5000
+SR T:20000
+Global T:20000
+-----
+nrows: 2 nCols: 8
+Solving upper bound
+Creating optimization instance...
+Qubit unique mapping:135
+Gate time lower bound:227
+Single qubit gate duration:183
+Dependency:256
+CNOT duration (data unaware):44
+Routing (rectangle reservation):253
+Created instance
+Checking 20000
+Checking instance with T=20000
+Dummy gate constraints:228

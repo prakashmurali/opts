@@ -1,0 +1,118 @@
+7
+Reading programs/BV/BV6_5/BV6_5.in
+Reading programs/BV/BV6_5/BV6_5.rr
+Reading programs/BV/BV6_5/BV6_5.des
+Reading programs/BV/BV6_5/BV6_5.pg
+Reading programs/BV/BV6_5/BV6_5.gmap
+Experiment configuration
+-----
+Program:programs/BV/BV6_5/BV6_5
+Machine:2,8
+Data aware:0
+Routing policy:1
+SR T:275
+Global T:275
+-----
+nrows: 2 nCols: 8
+Solving upper bound
+Creating optimization instance...
+Qubit unique mapping:27
+Gate time lower bound:24
+Single qubit gate duration:19
+Dependency:23
+CNOT duration (data unaware):5
+Routing (rectangle reservation):10
+Created instance
+Checking 275
+Checking instance with T=275
+Dummy gate constraints:25
+SAT
+Dummy gate time:275
+Checking 137
+Creating optimization instance...
+Qubit unique mapping:27
+Gate time lower bound:24
+Single qubit gate duration:19
+Dependency:23
+CNOT duration (data unaware):5
+Routing (rectangle reservation):10
+Created instance
+Checking 137
+Checking instance with T=137
+Dummy gate constraints:25
+UNSAT
+Found an approx solution, lower: 137 upper: 275
+Checking 206
+Creating optimization instance...
+Qubit unique mapping:27
+Gate time lower bound:24
+Single qubit gate duration:19
+Dependency:23
+CNOT duration (data unaware):5
+Routing (rectangle reservation):10
+Created instance
+Checking 206
+Checking instance with T=206
+Dummy gate constraints:25
+SAT
+Dummy gate time:206
+Found an approx solution, lower: 137 upper: 206
+Checking 171
+Creating optimization instance...
+Qubit unique mapping:27
+Gate time lower bound:24
+Single qubit gate duration:19
+Dependency:23
+CNOT duration (data unaware):5
+Routing (rectangle reservation):10
+Created instance
+Checking 171
+Checking instance with T=171
+Dummy gate constraints:25
+SAT
+Dummy gate time:171
+Found an approx solution, lower: 137 upper: 171
+Checking 154
+Creating optimization instance...
+Qubit unique mapping:27
+Gate time lower bound:24
+Single qubit gate duration:19
+Dependency:23
+CNOT duration (data unaware):5
+Routing (rectangle reservation):10
+Created instance
+Checking 154
+Checking instance with T=154
+Dummy gate constraints:25
+SAT
+Dummy gate time:154
+Found an approx solution, lower: 137 upper: 154
+Checking 145
+Creating optimization instance...
+Qubit unique mapping:27
+Gate time lower bound:24
+Single qubit gate duration:19
+Dependency:23
+CNOT duration (data unaware):5
+Routing (rectangle reservation):10
+Created instance
+Checking 145
+Checking instance with T=145
+Dummy gate constraints:25
+UNSAT
+Found near optimal solution, lower: 145 upper: 154
+Total Solve Time:1
+Constraints:
+Mapping:27
+Dependency:23
+Routing:10
+Stats:
+arith_conflicts 8482
+arith_add_rows 800286
+conflicts 9121
+decisions 12929
+mk_clause 11178
+added_eqs 0
+binary_propagations 143674
+restarts 15
+All done!

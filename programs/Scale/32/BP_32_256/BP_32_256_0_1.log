@@ -1,0 +1,42 @@
+7
+Reading programs/Scale/32/BP_32_256/BP_32_256.in
+Reading programs/Scale/32/BP_32_256/BP_32_256.rr
+Reading programs/Scale/32/BP_32_256/BP_32_256.des
+Reading programs/Scale/32/BP_32_256/BP_32_256.pg
+Reading programs/Scale/32/BP_32_256/BP_32_256.gmap
+Experiment configuration
+-----
+Program:programs/Scale/32/BP_32_256/BP_32_256
+Machine:8,4
+Data aware:0
+Routing policy:1
+SR T:2500
+Global T:2500
+-----
+nrows: 8 nCols: 4
+Creating SR instance...
+Gate time lower bound:106
+Single qubit gate duration:84
+Dependency:95
+CNOT duration (data unaware):22
+Routing (rectangle reservation):228
+Created SR instance
+Checking instance with T=2500
+Dummy gate constraints:107
+SAT
+Dummy gate time:119
+Total Solve Time:0
+Constraints:
+Mapping:0
+Dependency:95
+Routing:228
+Stats:
+arith_conflicts 0
+arith_add_rows 0
+conflicts 0
+decisions 0
+mk_clause 0
+added_eqs 0
+binary_propagations 0
+restarts 0
+All done!

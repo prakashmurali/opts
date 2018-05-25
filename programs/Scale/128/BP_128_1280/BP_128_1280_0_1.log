@@ -1,0 +1,42 @@
+7
+Reading programs/Scale/128/BP_128_1280/BP_128_1280.in
+Reading programs/Scale/128/BP_128_1280/BP_128_1280.rr
+Reading programs/Scale/128/BP_128_1280/BP_128_1280.des
+Reading programs/Scale/128/BP_128_1280/BP_128_1280.pg
+Reading programs/Scale/128/BP_128_1280/BP_128_1280.gmap
+Experiment configuration
+-----
+Program:programs/Scale/128/BP_128_1280/BP_128_1280
+Machine:16,8
+Data aware:0
+Routing policy:1
+SR T:10000
+Global T:10000
+-----
+nrows: 16 nCols: 8
+Creating SR instance...
+Gate time lower bound:603
+Single qubit gate duration:449
+Dependency:630
+CNOT duration (data unaware):154
+Routing (rectangle reservation):11234
+Created SR instance
+Checking instance with T=10000
+Dummy gate constraints:604
+SAT
+Dummy gate time:9999
+Total Solve Time:20
+Constraints:
+Mapping:0
+Dependency:630
+Routing:11234
+Stats:
+arith_conflicts 0
+arith_add_rows 0
+conflicts 0
+decisions 0
+mk_clause 0
+added_eqs 0
+binary_propagations 0
+restarts 0
+All done!

@@ -1,0 +1,102 @@
+7
+Reading programs/BV/BV8_7/BV8_7.in
+Reading programs/BV/BV8_7/BV8_7.rr
+Reading programs/BV/BV8_7/BV8_7.des
+Reading programs/BV/BV8_7/BV8_7.pg
+Reading programs/BV/BV8_7/BV8_7.gmap
+Experiment configuration
+-----
+Program:programs/BV/BV8_7/BV8_7
+Machine:2,8
+Data aware:0
+Routing policy:1
+SR T:300
+Global T:300
+-----
+nrows: 2 nCols: 8
+Solving upper bound
+Creating optimization instance...
+Qubit unique mapping:44
+Gate time lower bound:32
+Single qubit gate duration:25
+Dependency:31
+CNOT duration (data unaware):7
+Routing (rectangle reservation):14
+Created instance
+Checking 300
+Checking instance with T=300
+Dummy gate constraints:33
+SAT
+Dummy gate time:300
+Checking 150
+Creating optimization instance...
+Qubit unique mapping:44
+Gate time lower bound:32
+Single qubit gate duration:25
+Dependency:31
+CNOT duration (data unaware):7
+Routing (rectangle reservation):14
+Created instance
+Checking 150
+Checking instance with T=150
+Dummy gate constraints:33
+UNSAT
+Found an approx solution, lower: 150 upper: 300
+Checking 225
+Creating optimization instance...
+Qubit unique mapping:44
+Gate time lower bound:32
+Single qubit gate duration:25
+Dependency:31
+CNOT duration (data unaware):7
+Routing (rectangle reservation):14
+Created instance
+Checking 225
+Checking instance with T=225
+Dummy gate constraints:33
+UNSAT
+Found an approx solution, lower: 225 upper: 300
+Checking 262
+Creating optimization instance...
+Qubit unique mapping:44
+Gate time lower bound:32
+Single qubit gate duration:25
+Dependency:31
+CNOT duration (data unaware):7
+Routing (rectangle reservation):14
+Created instance
+Checking 262
+Checking instance with T=262
+Dummy gate constraints:33
+UNSAT
+Found an approx solution, lower: 262 upper: 300
+Checking 281
+Creating optimization instance...
+Qubit unique mapping:44
+Gate time lower bound:32
+Single qubit gate duration:25
+Dependency:31
+CNOT duration (data unaware):7
+Routing (rectangle reservation):14
+Created instance
+Checking 281
+Checking instance with T=281
+Dummy gate constraints:33
+SAT
+Dummy gate time:281
+Found near optimal solution, lower: 262 upper: 281
+Total Solve Time:97
+Constraints:
+Mapping:44
+Dependency:31
+Routing:14
+Stats:
+arith_conflicts 359693
+arith_add_rows 51427358
+conflicts 389056
+decisions 507066
+mk_clause 393411
+added_eqs 0
+binary_propagations 4942391
+restarts 44
+All done!

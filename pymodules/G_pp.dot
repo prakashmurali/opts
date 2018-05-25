@@ -1,0 +1,46 @@
+strict digraph "()_with_int_labels" {
+	graph [name="()_with_int_labels"];
+	node [label="\N"];
+	0	 [details="{'startTime': -1, 'qubits': [2], 'outEdges': [3], 'llvmId': '0x1212470', 'type': 'H', 'inEdges': []}",
+		label="0:H 2 ",
+		prev_id=0];
+	3	 [details="{'startTime': -1, 'qubits': [0, 2], 'outEdges': [4, 4], 'llvmId': '0x1212fe8', 'type': 'CNOT', 'inEdges': [0, 2]}",
+		label="3:CNOT 0 2 ",
+		prev_id=3];
+	0 -> 3;
+	1	 [details="{'startTime': -1, 'qubits': [3], 'outEdges': [8], 'llvmId': '0x1212640', 'type': 'H', 'inEdges': []}",
+		label="1:H 3 ",
+		prev_id=1];
+	8	 [details="{'startTime': -1, 'qubits': [3], 'outEdges': [], 'llvmId': '0x12147f0', 'type': 'MeasZ', 'inEdges': [1]}",
+		label="8:MeasZ 3 ",
+		prev_id=8];
+	1 -> 8;
+	2	 [details="{'startTime': -1, 'qubits': [0, 1], 'outEdges': [3, 6], 'llvmId': '0x1212c58', 'type': 'CNOT', 'inEdges': [9, 10]}",
+		label="2:CNOT 0 1 ",
+		prev_id=2];
+	2 -> 3;
+	6	 [details="{'startTime': -1, 'qubits': [1], 'outEdges': [], 'llvmId': '0x1213e80', 'type': 'MeasZ', 'inEdges': [2]}",
+		label="6:MeasZ 1 ",
+		prev_id=6];
+	2 -> 6;
+	4	 [details="{'startTime': -1, 'qubits': [2, 0], 'outEdges': [7, 5], 'llvmId': '0x12133e8', 'type': 'CNOT', 'inEdges': [3, 3]}",
+		label="4:CNOT 2 0 ",
+		prev_id=4];
+	3 -> 4;
+	5	 [details="{'startTime': -1, 'qubits': [0], 'outEdges': [], 'llvmId': '0x1213b10', 'type': 'MeasZ', 'inEdges': [4]}",
+		label="5:MeasZ 0 ",
+		prev_id=5];
+	4 -> 5;
+	7	 [details="{'startTime': -1, 'qubits': [2], 'outEdges': [], 'llvmId': '0x12143a0', 'type': 'MeasZ', 'inEdges': [4]}",
+		label="7:MeasZ 2 ",
+		prev_id=7];
+	4 -> 7;
+	9	 [details="{'startTime': -1, 'qubits': [0], 'outEdges': [2], 'llvmId': '0x121bff0', 'type': 'H', 'inEdges': []}",
+		label="9:H 0 ",
+		prev_id=9];
+	9 -> 2;
+	10	 [details="{'startTime': -1, 'qubits': [1], 'outEdges': [2], 'llvmId': '0x121c240', 'type': 'H', 'inEdges': []}",
+		label="10:H 1 ",
+		prev_id=10];
+	10 -> 2;
+}
